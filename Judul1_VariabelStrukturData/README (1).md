@@ -1,7 +1,7 @@
 Judul : Program Putar Playlist Lagu
 
 Deskripsi :
-Program ini menggunakan struktur data Singly Linked List untuk mensimulasikan antrean lagu dengan prinsip FIFO (First In, First Out).
+Program ini dirancang untuk mengelola daftar putar lagu secara berurutan menggunakan konsep struktur data Linked List. Di sini, setiap lagu dianggap sebagai sebuah rantai yang saling terhubung, di mana pengguna bisa menambah lagu baru ke akhir daftar, melihat seluruh isi daftar yang ada, serta memutar lagu dimulai dari urutan yang paling pertama.Saat lagu diputar, program akan otomatis menghapusnya dari daftar sehingga lagu berikutnya akan naik menjadi urutan utama, mirip dengan cara kerja antrean musik pada umumnya.
 
 Source code :
 
