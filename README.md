@@ -5,7 +5,7 @@ Program ini menggunakan struktur data Singly Linked List untuk mensimulasikan an
 
 Source code :
 
-![image alt](https://cdn.corenexis.com/files/c/8736163720.png)
+![image alt](https://cdn.corenexis.com/files/c/5433456720.png)
 
 Penjelasan
 kode baris pertama berfungsi untuk mendeklarasikan class yaitu lagu
@@ -44,3 +44,8 @@ kode baris ke-44 akan menyimpan variabel playlist
 kode baris ke-45 hingga 47 berfungsi untk menambahkan lagu
 kode baris ke 50 berfungsi untuk menampilkan playlist
 kode baris ke-51 berfungsi untuk menghapus elemen atau lagu terdepan 
+
+Output :
+![image alt](https://cdn.corenexis.com/files/c/8182465720.png)
+
+link video demonstrasi :
