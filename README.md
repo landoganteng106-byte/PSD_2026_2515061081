@@ -51,7 +51,7 @@ ada fungsi main yang berguna sebagai otak atau fungsi utamanya yange menajalanka
  
  
  
- while True:
+  while True:
             try:
                 beban = int(input(f"Masukkan beban angkatan {nama} (Kg): "))
                 data_rekor.append([nama, beban])
