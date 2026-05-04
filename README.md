@@ -48,8 +48,13 @@ dimana Indeks [1] digunakan karena data disimpan dalam format [nama, beban]. Ang
 
 
 
-![image alt](https://cdn.corenexis.com/files/c/2859644720.png)
+![image alt](https://cdn.corenexis.com/files/c/9263635720.png)
 
 Penjelasan :
 fungsi main berguna sebagai pengendali utamanya dimana ada fungsi di dalamnya yang langsung menetak " Program Rekor Beban Angkat " 
-lalu ada looping menggunakan while true, dimana akan terus melooping selama kondisi true
+lalu ada looping menggunakan while true, dimana akan terus melooping selama kondisi true.ada juga perintah try dan except ValueError yang berfungsi menjaga program agar tidak mati error,jika pengguna memasukkan selain angka dan ada juga kondisi
+  if n <= 0:
+                print("Jumlah harus lebih dari 0 ")
+                continue
+            break
+kalau tidak sesuai program akan di
