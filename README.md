@@ -22,4 +22,10 @@ Lalu,mulai dari kode baris kedua,dimulai dengan menyimpan nilai dari indeks ke-i
 Penjelasan :
 Kode def selection_sort(arr, n) berfungsi untuk menginisiasi atau membuat fungsi seletion sort dimana fungsi ini berguna untuk mengurutkan datanya.
 Lalu,Alurnya dimulai dari kode bawahnya dimana  dari loop luar yang menentukan posisi target (i), kemudian loop dalam akan menyeleksi sisa elemen di sebelah kanan untuk mencari nilai yang lebih besar dari nilai di posisi pos. Jika ditemukan elemen yang lebih besar, variabel pos akan diperbarui untuk mencatat indeks elemen tersebut. Setelah penyeleksian selesai, jika indeks pos tidak lagi sama dengan i, maka fungsi tukar akan dipanggil untuk memindahkan elemen terbesar tersebut ke posisi yang seharusnya, dan proses ini terus berulang hingga seluruh data terurut secara menurun. Kode "for i in range(n - 1):" berguna untuk looping sesuai input yang diterima karena indeks di python dimulai dari 0,maka setiap hasil inputan dikurang dengan 1 agar sesuai indeksnya.
+    for j in range(i + 1, n):
+      if arr[j] > arr[pos]:
+        pos = j
+    if pos != i:
+      tukar(arr, i, pos)
+kode di atas adalah nested loop yang ada diloopingan sebelumnya,dimana dimulai dari arr[j] yang akan diloopig dengan total arr[i] yang ditambah satu persatu hingga sesuai inputan,lalu akan diseleksi dan dibandingkan di mana kalau arr[j] lebih besar dari arr[pos],lalu nilai tertinggi akan masuk ke nilai arr[pos] sebagai pivot dan ditukar,begitu terus hingga semuanya selesai sesuai inputan.
 
