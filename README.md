@@ -73,7 +73,7 @@ kode ini berfungsi sebagai pengisian datanys  yang memastikan setiap rekor beban
 
 ![image alt](https://cdn.corenexis.com/files/c/5686641720.png)
 
-Penjelasan
+Penjelasan :
 
 
 
