@@ -57,4 +57,13 @@ lalu ada looping menggunakan while true, dimana akan terus melooping selama kond
                 print("Jumlah harus lebih dari 0 ")
                 continue
             break
-kalau tidak sesuai program akan di
+kalau kondisinya kurang dari atau sama dengan 0,program akan terus melakukanya dan kalau sudah menapai angka atau kondisi yang ideal dimana nilai yag diinput lebih dari 0,
+program akan langsung di break atau dihentikan.
+
+
+
+![image alt](https://cdn.corenexis.com/files/c/2314337720.png)
+
+Penjelasan :
+
+ada variabel data_rekor yang jadi penampung atau berisi list,
