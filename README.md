@@ -34,7 +34,7 @@ kode di atas adalah nested loop yang ada diloopingan sebelumnya,dimana dimulai d
 ![image alt](https://cdn.corenexis.com/files/c/4544171720.png)
 
 Penjelasan :
-Fungsi main() adalah pusat kendali yang mengatur jalannya program,lalu fungsi dimulai dengan meminta pengguna memasukkan jumlah rekor (n). Penggunaan blok try...except di sini sangat penting untuk menangani kesalahan (error handling); jika pengguna memasukkan huruf, bukan angka, program tidak akan langsung error, melainkan akan memberikan pesan peringatan dan menghentikan proses.lalu,Program kemudian melakukan looping sebanyak inputan n yang diberikan untuk mengambil input data beban.Setelah semua data terkumpul ke dalam arr,program akan menetak data awal,memnggil fungsi selection sort lalu menampilkan hasil akhirnya dan kode ini "if __name__ == "__main__":" berfungsi i untuk memastikan bahwa fungsi main() hanya akan berjalan jika file ini dieksekusi secara langsung sebagai program utama, dan agar tidak harus memanggil fungsinya berulang kali.
+Fungsi main() adalah pusat kendali yang mengatur jalannya program,lalu fungsi dimulai dengan meminta pengguna memasukkan jumlah rekor (n). Penggunaan intrukai try dan except di sini untuk menangani kesalahan,jika pengguna memasukkan huruf, bukan angka, program tidak akan langsung error, melainkan akan memberikan pesan peringatan dan menghentikan proses.lalu,Program kemudian melakukan looping sebanyak inputan n yang diberikan untuk mengambil input data beban.Setelah semua data terkumpul ke dalam arr,program akan menetak data awal,memnggil fungsi selection sort lalu menampilkan hasil akhirnya dan kode ini "if __name__ == "__main__":" berfungsi i untuk memastikan bahwa fungsi main() hanya akan berjalan jika file ini dieksekusi secara langsung sebagai program utama, dan agar tidak harus memanggil fungsinya berulang kali.
 
 
 
@@ -66,4 +66,19 @@ program akan langsung di break atau dihentikan.
 
 Penjelasan :
 
-ada variabel data_rekor yang jadi penampung atau berisi list,
+ada variabel data_rekor yang jadi penampung atau berisi list,lalu ada perulangan sesuai inputan yang diberikan di kode "for i in range(n):"lalu dia akan menprint   print(f"\nData ke-{i + 1}:" yang akan disesuaikan dengan i + 1 hingga sampai inputannya atau nilai n.terus juga ada kode
+ while True:
+            try:
+                beban = int(input(f"Masukkan beban angkatan {nama} (Kg): "))
+                data_rekor.append([nama, beban])
+                break
+            except ValueError:
+                print("Input beban tidak valid, masukkan angka!")
+
+    print("\n" + "="*30)
+    print(f"Data sebelum diurutkan: {data_rekor}")
+
+kode ini berfungsi sebagai pengisian datanys  yang memastikan setiap rekor beban angkatan tersimpan dengan aman dan benar.dengan perulangan while True dan kode try dan exept, program memaksa pengguna untuk memasukkan angka beban yang benar.jika terjadi kesalahan ketik seperti memasukkan huruf, program akan memberikan peringatan dan meminta input ulang tanpa menghentikan jalannya aplikasi. Setelah angka beban berhasil dikonversi menjadi integer, data tersebut digabungkan dengan nama dalam bentuk list pasangan [nama, beban] dan dimasukkan ke dalam daftar besar data_rekor.
+
+
+
