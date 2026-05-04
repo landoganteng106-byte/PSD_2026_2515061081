@@ -67,14 +67,15 @@ ada variabel data_rekor yang jadi penampung atau berisi list,lalu ada perulangan
     print("\n" + "="*30)
     print(f"Data sebelum diurutkan: {data_rekor}")
 
-kode ini berfungsi sebagai pengisian datanys  yang memastikan setiap rekor beban angkatan tersimpan dengan aman dan benar.dengan perulangan while True dan kode try dan exept, program memaksa pengguna untuk memasukkan angka beban yang benar.jika terjadi kesalahan ketik seperti memasukkan huruf, program akan memberikan peringatan dan meminta input ulang tanpa menghentikan jalannya aplikasi. Setelah angka beban berhasil dikonversi menjadi integer, data tersebut digabungkan dengan nama dalam bentuk list pasangan [nama, beban] dan dimasukkan ke dalam daftar besar data_rekor.
+kode ini berfungsi sebagai pengisian datanys  yang memastikan setiap rekor beban angkatan tersimpan dengan aman dan benar.dengan perulangan while True dan kode try dan exept, program memaksa pengguna untuk memasukkan angka beban yang benar.jika terjadi kesalahan ketik seperti memasukkan huruf, program akan memberikan peringatan dan meminta input ulang tanpa menghentikan jalannya aplikasi. Setelah angka beban berhasil dikonversi menjadi integer, data tersebut digabungkan dengan nama dalam bentuk list pasangan [nama, beban] dan dimasukkan ke dalam daftar besar data_rekor lalu setelah semuanya selesai akan diprint dan ditampilkan.
 
 
 
 ![image alt](https://cdn.corenexis.com/files/c/5686641720.png)
 
 Penjelasan :
-
+Kode ini dimulai dengan pemanggilan  selection_sort(data_rekor, n), di mana daftar data yang tadinya acak disusun ulang berdasarkan beban angkatan
+tertinggi Setelah data terurut, program menggunakan perulangan for untuk membedah kembali isi list dua dimensi tersebut; pada setiap putaran, program mengambil nama orang dari indeks [0] dan besar bebannya dari indeks [1]. Hasilnya dicetak dalam format daftar bernomor (i+1) untuk menciptakan tampilan papan peringkat atau leaderboard dan if __name__ == "__main__": memastikan bahwa seluruh rangkaian fungsi ini hanya akan berjalan secara otomatis saat file dijalankan sebagai program utama.
 
 
 
