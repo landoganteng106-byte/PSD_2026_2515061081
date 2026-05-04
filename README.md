@@ -19,6 +19,8 @@ Kode def selection_sort(arr, n) berfungsi untuk menginisiasi atau membuat fungsi
 Lalu,Alurnya dimulai dari kode bawahnya dimana  dari loop luar yang menentukan posisi target (i), kemudian loop dalam akan menyeleksi sisa elemen di sebelah kanan untuk mencari nilai yang lebih besar dari nilai di posisi pos. Jika ditemukan elemen yang lebih besar, variabel pos akan diperbarui untuk mencatat indeks elemen tersebut. Setelah penyeleksian selesai, jika indeks pos tidak lagi sama dengan i, maka fungsi tukar akan dipanggil untuk memindahkan elemen terbesar tersebut ke posisi yang seharusnya, dan proses ini terus berulang hingga seluruh data terurut secara menurun. Kode "for i in range(n - 1):" berguna untuk looping sesuai input yang diterima karena indeks di python dimulai dari 0,maka setiap hasil inputan dikurang dengan 1 agar sesuai indeksnya.
     
     
+    
+    
     for i in range(n - 1):
         pos = i
         for j in range(i + 1, n):
@@ -26,6 +28,8 @@ Lalu,Alurnya dimulai dari kode bawahnya dimana  dari loop luar yang menentukan p
                 pos = j
         if pos != i:
             tukar(arr, i, pos)
+
+            
 
             
 kode di atas adalah nested loop yang ada diloopingan sebelumnya,dimana dimulai dari arr[j] yang akan diloopig dengan total arr[i] yang ditambah satu persatu hingga sesuai inputan,lalu akan diseleksi dan dibandingkan di mana kalau arr[j] lebih besar dari arr[pos],lalu nilai tertinggi akan masuk ke
@@ -41,6 +45,8 @@ Penjelasan :
 ada fungsi main yang berguna sebagai otak atau fungsi utamanya yange menajalankan semua fungsinya lalu dijadikan  dan ditampilkan,variabel data_rekor yang jadi penampung atau berisi list,lalu ada perulangan sesuai inputan yang diberikan di kode "for i in range(n):"lalu dia akan menprint  print(f"\nData ke-{i + 1}:" yang akan disesuaikan dengan i + 1 hingga sampai inputannya atau nilai n.terus juga ada kode
 
  
+
+ 
  while True:
             try:
                 beban = int(input(f"Masukkan beban angkatan {nama} (Kg): "))
@@ -51,6 +57,8 @@ ada fungsi main yang berguna sebagai otak atau fungsi utamanya yange menajalanka
 
     print("\n" + "="*30)
     print(f"Data sebelum diurutkan: {data_rekor}")
+
+
 
 
 
