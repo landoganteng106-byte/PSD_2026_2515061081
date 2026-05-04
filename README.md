@@ -34,4 +34,22 @@ kode di atas adalah nested loop yang ada diloopingan sebelumnya,dimana dimulai d
 ![image alt](https://cdn.corenexis.com/files/c/4544171720.png)
 
 Penjelasan :
-Fungsi main() adalah pusat kendali yang mengatur jalannya program,lalu fungsi dimulai dengan meminta pengguna memasukkan jumlah rekor (n). Penggunaan blok try...except di sini sangat penting untuk menangani kesalahan (error handling); jika pengguna memasukkan huruf, bukan angka, program tidak akan langsung error, melainkan akan memberikan pesan peringatan dan menghentikan proses.lalu,Program kemudian melakukan looping sebanyak inputan n yang diberikan untuk mengambil input data beban.Setelah semua data terkumpul ke dalam arr,program akan menetak data awal,memnggil fungsi sele
+Fungsi main() adalah pusat kendali yang mengatur jalannya program,lalu fungsi dimulai dengan meminta pengguna memasukkan jumlah rekor (n). Penggunaan blok try...except di sini sangat penting untuk menangani kesalahan (error handling); jika pengguna memasukkan huruf, bukan angka, program tidak akan langsung error, melainkan akan memberikan pesan peringatan dan menghentikan proses.lalu,Program kemudian melakukan looping sebanyak inputan n yang diberikan untuk mengambil input data beban.Setelah semua data terkumpul ke dalam arr,program akan menetak data awal,memnggil fungsi selection sort lalu menampilkan hasil akhirnya dan kode ini "if __name__ == "__main__":" berfungsi i untuk memastikan bahwa fungsi main() hanya akan berjalan jika file ini dieksekusi secara langsung sebagai program utama, dan agar tidak harus memanggil fungsinya berulang kali.
+
+
+
+![image alt](https://cdn.corenexis.com/files/c/2599666720.png)
+
+Penjelasan :
+untuk fungsi tukar  sama saja seperti sebelumnya,untuk fungsi seletion sortnya juga kurang lebih sama sepertui sebelumnya cuma ada sedikit perbedaan dimana bagian
+            if arr[j][1] > arr[pos][1]:
+dimana Indeks [1] digunakan karena data disimpan dalam format [nama, beban]. Angka 1 memastikan program hanya membandingkan nilai beban, bukan nama orangnya.
+
+
+
+
+![image alt](https://cdn.corenexis.com/files/c/2859644720.png)
+
+Penjelasan :
+fungsi main berguna sebagai pengendali utamanya dimana ada fungsi di dalamnya yang langsung menetak " Program Rekor Beban Angkat " 
+lalu ada looping menggunakan while true, dimana akan terus melooping selama kondisi true
