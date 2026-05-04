@@ -20,3 +20,6 @@ Lalu,mulai dari kode baris kedua,dimulai dengan menyimpan nilai dari indeks ke-i
 ![image alt](https://cdn.corenexis.com/files/c/4519233720.png)
 
 Penjelasan :
+Kode def selection_sort(arr, n) berfungsi untuk menginisiasi atau membuat fungsi seletion sort dimana fungsi ini berguna untuk mengurutkan datanya.
+Lalu,Alurnya dimulai dari kode bawahnya dimana  dari loop luar yang menentukan posisi target (i), kemudian loop dalam akan menyeleksi sisa elemen di sebelah kanan untuk mencari nilai yang lebih besar dari nilai di posisi pos. Jika ditemukan elemen yang lebih besar, variabel pos akan diperbarui untuk mencatat indeks elemen tersebut. Setelah penyisiran selesai, jika indeks pos tidak lagi sama dengan i, maka fungsi tukar akan dipanggil untuk memindahkan elemen terbesar tersebut ke posisi yang seharusnya, dan proses ini terus berulang hingga seluruh data terurut secara menurun.
+
