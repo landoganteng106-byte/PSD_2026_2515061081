@@ -13,4 +13,10 @@ memudahkan pengguna untuk melihat siapa yang memegang rekor angkatan terberat se
 
 Penjelasan :
 Kode baris pertama digunaka untuk menginisiasi atau membuat fungsi tukar dengan arr,i dan j sebagai elemennya.
-Mulai dari kode baris kedua,dimulai dengan menyimpan nilai dari indeks ke-i ke dalam variabel sementara temp, kemudian menimpah posisi indeks ke-i dengan nilai dari indeks ke-j. Terakhir, nilai asli dari indeks ke-i yang berada di dalam temp dipindahkan ke posisi indeks ke-j.
+Lalu,mulai dari kode baris kedua,dimulai dengan menyimpan nilai dari indeks ke-i ke dalam variabel sementara temp, kemudian menimpah posisi indeks ke-i dengan nilai dari indeks ke-j. Terakhir, nilai asli dari indeks ke-i yang berada di dalam temp dipindahkan ke posisi indeks ke-j.
+
+
+
+![image alt](https://cdn.corenexis.com/files/c/4519233720.png)
+
+Penjelasan :
