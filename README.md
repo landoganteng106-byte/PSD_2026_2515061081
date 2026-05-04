@@ -32,3 +32,6 @@ kode di atas adalah nested loop yang ada diloopingan sebelumnya,dimana dimulai d
 
 
 ![image alt](https://cdn.corenexis.com/files/c/4544171720.png)
+
+Penjelasan :
+Fungsi main() adalah pusat kendali yang mengatur jalannya program,lalu fungsi dimulai dengan meminta pengguna memasukkan jumlah rekor (n). Penggunaan blok try...except di sini sangat penting untuk menangani kesalahan (error handling); jika pengguna memasukkan huruf, bukan angka, program tidak akan langsung error, melainkan akan memberikan pesan peringatan dan menghentikan proses.lalu,Program kemudian melakukan looping sebanyak inputan n yang diberikan untuk mengambil input data beban.Setelah semua data terkumpul ke dalam arr,program akan menetak data awal,memnggil fungsi sele
