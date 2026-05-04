@@ -38,7 +38,7 @@ dimana Indeks [1] digunakan karena data disimpan dalam format [nama, beban]. Ang
 
 
 
-![image alt](https://cdn.corenexis.com/files/c/3974366720.png)
+![image alt](https://cdn.corenexis.com/files/c/2352478720.png)
 
 Penjelasan :
 
