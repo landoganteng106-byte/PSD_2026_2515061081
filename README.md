@@ -29,3 +29,6 @@ Lalu,Alurnya dimulai dari kode bawahnya dimana  dari loop luar yang menentukan p
       tukar(arr, i, pos)
 kode di atas adalah nested loop yang ada diloopingan sebelumnya,dimana dimulai dari arr[j] yang akan diloopig dengan total arr[i] yang ditambah satu persatu hingga sesuai inputan,lalu akan diseleksi dan dibandingkan di mana kalau arr[j] lebih besar dari arr[pos],lalu nilai tertinggi akan masuk ke nilai arr[pos] sebagai pivot dan ditukar,begitu terus hingga semuanya selesai sesuai inputan.
 
+
+
+![image alt](https://cdn.corenexis.com/files/c/4544171720.png)
