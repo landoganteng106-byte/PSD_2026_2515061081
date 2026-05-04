@@ -47,6 +47,10 @@ ada fungsi main yang berguna sebagai otak atau fungsi utamanya yange menajalanka
  
 
  
+
+ 
+ 
+ 
  while True:
             try:
                 beban = int(input(f"Masukkan beban angkatan {nama} (Kg): "))
@@ -57,6 +61,8 @@ ada fungsi main yang berguna sebagai otak atau fungsi utamanya yange menajalanka
 
     print("\n" + "="*30)
     print(f"Data sebelum diurutkan: {data_rekor}")
+
+    
 
 
 
