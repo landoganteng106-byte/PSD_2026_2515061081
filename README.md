@@ -7,7 +7,7 @@ Sentinel Linear Searching untuk meningkatkan efisiensi dalam pencarian produk.
 
 
 
-[![image alt]](https://cdn.corenexis.com/files/c/9337662720.png)
+[![image alt]](https://cdn.corenexis.com/files/c/7592623720.png)
 
 
 
@@ -26,7 +26,7 @@ kode ke-10, digunakan untuk mengecek di mana barang itu ditemukan,Jika ditemukan
 
 
 
-[![image alt]](https://cdn.corenexis.com/files/c/5314131720.png)
+[![image alt]](https://cdn.corenexis.com/files/c/1284973720.png)
 
 
 
@@ -42,3 +42,7 @@ Kalau tidak sesuai kondisi if,atau indeks dibawah -1, akan mencetak "Maaf, stok 
 
 Output :
 [![image alt](https://cdn.corenexis.com/files/c/3373214720.png)
+
+Link video :
+
+https://youtu.be/5F3bcsSxZiA
