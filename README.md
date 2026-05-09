@@ -6,6 +6,7 @@ Sentinel Linear Searching untuk meningkatkan efisiensi dalam pencarian produk.
 
 
 
+
 [![image alt]](https://cdn.corenexis.com/files/c/9337662720.png)
 
 
@@ -24,7 +25,9 @@ kode ke-10, digunakan untuk mengecek di mana barang itu ditemukan,Jika ditemukan
 
 
 
+
 [![image alt]](https://cdn.corenexis.com/files/c/5314131720.png)
+
 
 
 
