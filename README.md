@@ -4,7 +4,7 @@ Deskripsi    :
 Program ini dibuat untuk mensimulasikan pencarian barang di dalam gudang atau rak toko dengan algoritma yang efisien dan sederhana denga menggunakan
 Sentinel Linear Searching untuk meningkatkan efisiensi dalam pencarian produk.
 
-![image alt](https://cdn.corenexis.com/files/c/5482421720.png)
+[![image alt]](https://cdn.corenexis.com/files/c/9337662720.png)
 
 Pada kode ke-1 dibuat def cps dengan parameter daftar_stok, produk_dicari
 Kode ke-2 berguna untuk menghitung jumlah total barang yang ada di dalam daftar_stok
@@ -15,3 +15,9 @@ kode i = 0 digunakan untuk menyatakan bahwa indeks dimulai dari 0
 while daftar_stok[i].lower() != produk_dicari:: Program akan terus berlanjut ke barang berikutnya (i += 1) selama barang yang diperiksa belum cocok dengan yang dicari.
 kode ke-9 berfungsi untuk ketika looping berhenti, kita mengembalikan barang terakhir yang asli ke tempatnya semula.
 kode ke-10, digunakan untuk mengecek di mana barang itu ditemukan,Jika ditemukan di indeks i yang lebih kecil dari posisi terakhir, berarti barang itu memang ada di daftar asli,Jika ditemukan di posisi terakhir, bakal dicek lagi apakah itu memang barang yang sama atau hanya kebetulan saja Jika ditemukan, kirimkan nomor indeksnya pada kode return i, Jika sampai akhir tidak ditemukan , kirimkan angka -1 sebagai tanda barang tidak ada dengan kode return -1.
+
+
+
+[![image alt]] (https://cdn.corenexis.com/files/c/8687126720.png)
+
+Pada kode 14 dibuat list stok_toko dengan isinya "Beras", "Minyak Goreng", "Gula", "Garam", "Telur", "Terigu", "Kopi", "Tempe".
