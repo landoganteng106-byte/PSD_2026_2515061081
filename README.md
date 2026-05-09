@@ -12,3 +12,6 @@ Pada kode ke-3,produk_dicari.lower() digunakan untuk mengubah input nama barang 
 Pada kode daftar_stok[n - 1]: Menyimpan nama barang terakhir yang asli agar tidak hilang,digunakan n - 1 untuk menyesuaikan input karena indeks dimulai dari 0.
 Pade kode daftar_stok[n - 1] = produk_dicari:, digunakan untuk mengganti barang terakhir dengan barang yang sedang kita cari,Tujuannya agar perulangan (while) pasti akan menemukan barang tersebut dan berhenti, sehingga komputer tidak perlu terus-menerus mengecek apakah daftar sudah habis atau belum.
 kode i = 0 digunakan untuk menyatakan bahwa indeks dimulai dari 0
+while daftar_stok[i].lower() != produk_dicari:: Program akan terus berlanjut ke barang berikutnya (i += 1) selama barang yang diperiksa belum cocok dengan yang dicari.
+kode ke-9 berfungsi untuk ketika looping berhenti, kita mengembalikan barang terakhir yang asli ke tempatnya semula.
+kode ke-10, digunakan untuk mengecek di mana barang itu ditemukan,Jika ditemukan di indeks i yang lebih kecil dari posisi terakhir, berarti barang itu memang ada di daftar asli,Jika ditemukan di posisi terakhir, bakal dicek lagi apakah itu memang barang yang sama atau hanya kebetulan saja Jika ditemukan, kirimkan nomor indeksnya pada kode return i, Jika sampai akhir tidak ditemukan , kirimkan angka -1 sebagai tanda barang tidak ada dengan kode return -1.
