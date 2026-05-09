@@ -24,7 +24,7 @@ kode ke-10, digunakan untuk mengecek di mana barang itu ditemukan,Jika ditemukan
 
 
 
-[![image alt]] (https://cdn.corenexis.com/files/c/8687126720.png)
+[![image alt]](https://cdn.corenexis.com/files/c/8687126720.png)
 
 
 
