@@ -24,8 +24,18 @@ kode ke-10, digunakan untuk mengecek di mana barang itu ditemukan,Jika ditemukan
 
 
 
-[![image alt]](https://cdn.corenexis.com/files/c/8687126720.png)
+[![image alt]](https://cdn.corenexis.com/files/c/5314131720.png)
 
 
 
-Pada kode 14 dibuat list stok_toko dengan isinya "Beras", "Minyak Goreng", "Gula", "Garam", "Telur", "Terigu", "Kopi", "Tempe".
+Pada kode ke-14 dibuat list stok_toko dengan isinya "Beras", "Minyak Goreng", "Gula", "Garam", "Telur", "Terigu", "Kopi", "Tempe".
+pada kode ke-16 akan memprint tulisan " SISTEM CEK STOK TOKO " dan pada kode berikutnya,dibuat variabel barang berdasarkan input penggunanya.
+pada kode ke-19 Program akan mengirimkan daftar stok_toko dan nama barang yang dicari ke fungsi cps.
+Setelahnya ada percabangan if indeks != -1,Jika indeks bukan -1, artinya barang ada di dalam daftar dan program akan mencetak "Barang'{stok_toko[indeks]}' tersedia di rak nomor {indeks + 1}.".Digunakan indeks + 1 karena indeks di python dimulai dari 0 dan untuk menyesuaikan dengan inputnya.
+Kalau tidak sesuai kondisi if,atau indeks dibawah -1, akan mencetak "Maaf, stok barang '{barang}' sedang kosong atau tidak terdaftar.".
+
+
+
+
+Output :
+[![image alt](https://cdn.corenexis.com/files/c/3373214720.png)
