@@ -61,4 +61,9 @@ funsgi dequeue berguna untuk kalau array kosong semua,dia akan memprint" Antrean
 
 fungsi peek berguna untuk melihat antrean terdepan dan fungsi display berguna untuk menampilkan seluruh daftar antrean kalau tidak kosong.
 
+![img alt](https://cdn.corenexis.com/files/c/7968441720.png)
+
+def main berguna untuk menampilkan seluruh fungsi dan opsinya,disitu ada batasannya yaitu maksimal 5,dan ada perulangan while dimana akan mengulang terus jika angka tidak sama dengan 5.ada juga try dan error berguna kalau terjadi keslahan,sistem tidak akan langsung mengerrorkannya.Ada juga kode
+if __name__ == "__main__":
+    main()
 
