@@ -31,6 +31,10 @@ digunakan untuk memeriksa apakah elemen di dalam indeks koson atau tidak.Jika ko
 
 kode  : def is_full(self):
          return (self.rear_idx + 1) % self.MAXN == self.front_idx
-berfungsi untuk kalau seandainya array full,fungsi akan menghentikan input baru dan melingkarkan dan menyambung lagi keujung antrean.\
+berfungsi untuk kalau seandainya array full,fungsi akan menghentikan input baru dan melingkarkan dan menyambung lagi keujung antrean.
+
+fungsi pada baris ke-14 Fungsi get_total_elements(self) ini berguna untuk menghitung secara akurat berapa banyak orang yang sedang mengantre saat ini.
+kalau array kosong dia akan mengembalikkan 0,dan ada kondisi if self.rear_idx >= self.front_idx: 
+Kondisi if ini berjalan jika posisi orang paling belakang memiliki nomor indeks yang lebih besar atau sama dengan orang paling depan . Ini terjadi saat antrean bertambah secara normal dari kiri ke kanan dan kondisi elsenya terjadi ketika rear_idx < front_idx. Ini terjadi jika beberapa pelanggan di depan sudah selesai dilayani dan pulang , lalu ada pelanggan baru berdatangan hingga posisinya berputar kembali ke indeks awal
 
 
