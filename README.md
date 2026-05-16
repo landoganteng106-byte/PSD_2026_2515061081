@@ -70,5 +70,6 @@ untuk mengatur agar fungsi main() hanya dijalankan jika file Python tersebut die
 
 
 link youtube :
+https://youtu.be/w8MXgus89kQ
 
 
