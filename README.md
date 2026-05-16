@@ -39,7 +39,7 @@ Kondisi if ini berjalan jika posisi orang paling belakang memiliki nomor indeks 
 
 
 
-![img alt](https://cdn.corenexis.com/files/c/7188822720.png)
+![img alt](https://cdn.corenexis.com/files/c/5295665720.png)
 
 untuk fungsi enqueue,kalau array penuh,dia akan mengembalikan dan memprint "Maaf, antrean di kasir sudah penuh! Silakan tunggu beberapa saat."
 untuk kode  if self.is_empty():
@@ -50,4 +50,8 @@ else:
             self.rear_idx = (self.rear_idx + 1) % self.MAXN
 kode di atas berjalan ketika kondisinya tidak terpenuhi dan karena elemen pertamanya tidak kosong,elemen berikutnya yang mau dimasukkin akan dilanjutkan ke indeks berikutnya untuk disambung dan dilingkarkan lagi.
 kode self.q[self.rear_idx] = nama_pelanggan,digunakan untuk mengisi array dengan menandai yang kosong lalu diisi.
+ orang_di_depan = self.get_total_elements() - 1 digunakan untuk menampilkan total jumlah orang yag ada di depan
+estimasi_waktu = orang_di_depan * 5  digunakan untuk memberi estimasi waktu 5 menit perorang
+
+
 
