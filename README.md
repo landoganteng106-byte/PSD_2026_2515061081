@@ -39,7 +39,7 @@ Kondisi if ini berjalan jika posisi orang paling belakang memiliki nomor indeks 
 
 
 
-![img alt](https://cdn.corenexis.com/files/c/5295665720.png)
+![img alt](https://cdn.corenexis.com/files/c/9489282720.png)
 
 untuk fungsi enqueue,kalau array penuh,dia akan mengembalikan dan memprint "Maaf, antrean di kasir sudah penuh! Silakan tunggu beberapa saat."
 untuk kode  if self.is_empty():
@@ -53,5 +53,12 @@ kode self.q[self.rear_idx] = nama_pelanggan,digunakan untuk mengisi array dengan
  orang_di_depan = self.get_total_elements() - 1 digunakan untuk menampilkan total jumlah orang yag ada di depan
 estimasi_waktu = orang_di_depan * 5  digunakan untuk memberi estimasi waktu 5 menit perorang
 
+funsgi dequeue berguna untuk kalau array kosong semua,dia akan memprint" Antrean kosong. Semua pelanggan sudah dilayani!",dan setiap ada pelanggan yang sudah dipanggil,indeksnya akan dikurangi 1,dan lanjut isambung untuk dilingkarkan kembali.
+
+
+
+![img alt](https://cdn.corenexis.com/files/c/5224574720.png)
+
+fungsi peek berguna untuk melihat antrean terdepan dan fungsi display berguna untuk menampilkan seluruh daftar antrean kalau tidak kosong.
 
 
