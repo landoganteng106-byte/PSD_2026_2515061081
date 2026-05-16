@@ -38,3 +38,16 @@ kalau array kosong dia akan mengembalikkan 0,dan ada kondisi if self.rear_idx >=
 Kondisi if ini berjalan jika posisi orang paling belakang memiliki nomor indeks yang lebih besar atau sama dengan orang paling depan . Ini terjadi saat antrean bertambah secara normal dari kiri ke kanan dan kondisi elsenya terjadi ketika rear_idx < front_idx. Ini terjadi jika beberapa pelanggan di depan sudah selesai dilayani dan pulang , lalu ada pelanggan baru berdatangan hingga posisinya berputar kembali ke indeks awal
 
 
+
+![img alt](https://cdn.corenexis.com/files/c/7188822720.png)
+
+untuk fungsi enqueue,kalau array penuh,dia akan mengembalikan dan memprint "Maaf, antrean di kasir sudah penuh! Silakan tunggu beberapa saat."
+untuk kode  if self.is_empty():
+            self.front_idx = 0
+            self.rear_idx = 0
+berguna untuk ketika array kosong,nilai front and rearnya aka diubah ke 0,dn elemennya akan dimasukkan dimulai dari indeks 0.
+else:
+            self.rear_idx = (self.rear_idx + 1) % self.MAXN
+kode di atas berjalan ketika kondisinya tidak terpenuhi dan karena elemen pertamanya tidak kosong,elemen berikutnya yang mau dimasukkin akan dilanjutkan ke indeks berikutnya untuk disambung dan dilingkarkan lagi.
+kode self.q[self.rear_idx] = nama_pelanggan,digunakan untuk mengisi array dengan menandai yang kosong lalu diisi.
+
