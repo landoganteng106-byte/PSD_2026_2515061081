@@ -9,4 +9,4 @@ Keunggulan dari program ini adalah kemampuannya menghitung jumlah orang di depan
 memanfaatkan manajemen indeks melingkar yang mencegah pemborosan memori pada array
 
 
-https://cdn.corenexis.com/files/c/5322686720.png
+![img alt](https://cdn.corenexis.com/files/c/5322686720.png)
