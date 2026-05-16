@@ -66,4 +66,9 @@ fungsi peek berguna untuk melihat antrean terdepan dan fungsi display berguna un
 def main berguna untuk menampilkan seluruh fungsi dan opsinya,disitu ada batasannya yaitu maksimal 5,dan ada perulangan while dimana akan mengulang terus jika angka tidak sama dengan 5.ada juga try dan error berguna kalau terjadi keslahan,sistem tidak akan langsung mengerrorkannya.Ada juga kode
 if __name__ == "__main__":
     main()
+untuk mengatur agar fungsi main() hanya dijalankan jika file Python tersebut dieksekusi secara langsung, dan tidak ikut berjalan jika file tersebut diimpor oleh file Python lain dan berjalan tanpa perlu memberikan memanggil fungsinya seara manual
+
+
+link youtube :
+
 
