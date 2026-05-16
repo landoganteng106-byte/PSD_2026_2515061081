@@ -7,3 +7,6 @@ sementara pelanggan baru yang masuk (enqueue) akan ditempatkan di posisi belakan
 memanggil pelanggan berikutnya (dequeue), melihat pelanggan terdepan (peek), serta menampilkan seluruh daftar antrean secara real-time. 
 Keunggulan dari program ini adalah kemampuannya menghitung jumlah orang di depan pelanggan serta estimasi waktu tunggu secara akurat, 
 memanfaatkan manajemen indeks melingkar yang mencegah pemborosan memori pada array
+
+
+https://cdn.corenexis.com/files/c/5322686720.png
