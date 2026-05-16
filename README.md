@@ -31,4 +31,6 @@ digunakan untuk memeriksa apakah elemen di dalam indeks koson atau tidak.Jika ko
 
 kode  : def is_full(self):
          return (self.rear_idx + 1) % self.MAXN == self.front_idx
-berfungsi untuk kalau seandainya array full,fungsi akan menghentikan input baru dan melingkarkan dan menyambung lagi keujung antrean.
+berfungsi untuk kalau seandainya array full,fungsi akan menghentikan input baru dan melingkarkan dan menyambung lagi keujung antrean.\
+
+
