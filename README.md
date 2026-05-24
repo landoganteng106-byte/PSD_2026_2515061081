@@ -21,3 +21,18 @@ pada baris ke-15,jika rootnya sudah ada,data yang diinput akan dijadikan node ba
 pada baris ke-19 ,dibuat fungsi untuk memasukkan data atau insert dengan parameter self, current, member_id, nama
 pada baris ke-20 dibuat percabangan dimana kalau member_id kurang dari total member id saat ini pada baris ke-21 jika current.left atau sisi kirinya kosong,akan menambahkan node pada sisi kirinya dan pada baris ke-24,ada percabangan juga dimana kalau sisi kanannya kosong akan juga ditambahkan nodenya di sisi kanan
 pada baris ke-31 ada fungsi yang digunakan untuk mecari member dan pada baris ke-32 mengembalikan nilai yang dicari
+pada baris ke-34 ada fungsi .search dengan parameter self, current, member_id
+pada bada kode     
+  if current is None:
+            return None
+        if current.member_id == member_id:
+            return current.nama
+        if member_id < current.member_id:
+            return self._search(current.left, member_id)
+        return self._search(current.right, member_id)
+dimana ada percabangan kalau current atau data sementara yang kita cari kosong akan di kembalikan none juga
+pada percabangan berikutnya artinya kalau data yang kita cari atau current.member_id sama dengan member_idnya akan direturn lagi data yang ada atau di return current.member_id
+pada percabanga berikutnya kalau member_id kurang dari current.member_id
+dia akan mencari ke percabangan kirinya atau di kanan
+
+            
