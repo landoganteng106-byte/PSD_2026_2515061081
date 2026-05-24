@@ -18,4 +18,6 @@ kode baris ke-10 menandai bahwa akar pohon dimulai dari None
 kode baris ke-12 membuat  untuk menambah member baru.
 kode baris ke-13 mengecek apakah rootnya sudah ada,jika tidak pada baris ke-14 membuat root jika rootnya sebelumnya tidak ada
 pada baris ke-15,jika rootnya sudah ada,data yang diinput akan dijadikan node baru atau member
-pada baris ke-19 ,dibuat fungsi untuk memasukkan data atau insert
+pada baris ke-19 ,dibuat fungsi untuk memasukkan data atau insert dengan parameter self, current, member_id, nama
+pada baris ke-20 dibuat percabangan dimana kalau member_id kurang dari total member id saat ini pada baris ke-21 jika current.left atau sisi kirinya kosong,akan menambahkan node pada sisi kirinya dan pada baris ke-24,ada percabangan juga dimana kalau sisi kanannya kosong akan juga ditambahkan nodenya di sisi kanan
+pada baris ke-31 ada fungsi yang digunakan untuk mecari member dan pada baris ke-32 mengembalikan nilai yang dicari
