@@ -41,3 +41,11 @@ dia akan mencari ke percabangan kirinya atau di kanan
 
             
 Fungsi main di atas berperan sebagai antarmuka interaktif yang menjalankan alur utama program dengan menggunakan perulangan while True untuk terus menampilkan menu pilihan kepada pengguna sampai opsi "Keluar" dipilih. Di dalam fungsi ini, sistem menginisialisasi objek GymMemberSystem, lalu menangani interaksi input-output di mana setiap pilihan menu (Tambah Member, Cari Data, atau Keluar) dikelola melalui struktur pengondisian if-elif-else yang dilengkapi dengan blok try-except untuk memastikan bahwa input ID yang dimasukkan pengguna selalu berupa angka valid, sehingga mencegah program berhenti mendadak jika terjadi kesalahan input. Jika pengguna memilih opsi pertama, program akan meminta ID dan nama untuk disimpan ke sistem, sementara opsi kedua memicu proses pencarian ID yang hasilnya akan langsung ditampilkan atau diinformasikan jika data tidak ditemukan, sebelum akhirnya program berakhir secara aman melalui perintah break saat pengguna memilih opsi ketiga.
+
+Output :
+![img alt](https://cdn.corenexis.com/files/c/6517395720.png)
+
+
+link :
+https://youtu.be/Y2TOuSpmVPQ
+
