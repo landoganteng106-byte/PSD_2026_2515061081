@@ -223,3 +223,11 @@ Baris ke-118 adalah baris kosong di dalam lingkup akhir fungsi utama.
 Baris ke-120 menjelaskan tentang klausa kondisi standar Python if __name__ == "__main__": yang bertugas memastikan bahwa seluruh kode di dalam fungsi main() hanya akan dieksekusi jika file script ini dijalankan secara langsung (bukan saat diimpor oleh script lain).
 
 Baris ke-121 menjelaskan tentang pemanggilan langsung fungsi main() untuk memerintahkan komputer memulai jalannya program simulasi dari baris awal.
+
+
+Link Video :
+https://youtu.be/DXCxgHpz-F0
+
+
+Output :
+![img alt](https://cdn.corenexis.com/files/c/5922599720.png)
