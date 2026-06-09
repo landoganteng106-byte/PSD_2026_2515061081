@@ -89,3 +89,56 @@ Baris ke-44 menjelaskan tentang pembaruan status slot tersebut menjadi SlotState
 Baris ke-45 menjelaskan tentang pengembalian nilai True untuk menyatakan bahwa data berhasil disisipkan pada slot bekas yang tersedia setelah pencarian panjang.
 
 Baris ke-46 menjelaskan tentang pengembalian nilai False yang berarti data gagal dimasukkan ke dalam sistem karena seluruh kapasitas hash table sudah benar-benar penuh dan tidak ada slot kosong maupun slot bekas yang tersisa.
+
+
+![img alt](https://cdn.corenexis.com/files/c/8365338720.png)
+
+Baris ke-48 menjelaskan tentang pendefinisian fungsi bernama search yang menerima parameter key (kunci), yang bertugas untuk mencari data di dalam hash table.
+
+Baris ke-49 menjelaskan tentang proses menghitung indeks awal (home slot) lokasi data dengan memanggil fungsi hash_function(key) dan menyimpannya ke dalam variabel idx.
+
+Baris ke-50 menjelaskan tentang pembuatan perulangan for sebanyak ukuran kapasitas tabel (self.SIZE) untuk menyusuri slot-slot tabel secara linier (linear probing).
+
+Baris ke-51 menjelaskan tentang perhitungan indeks pergeseran i di setiap langkah pencarian dengan rumus Linear Probing: (idx + step) % self.SIZE.
+
+Baris ke-52 menjelaskan tentang pemeriksaan kondisi apakah slot pada indeks i yang sedang dicek berstatus EMPTY (kosong asli).
+
+Baris ke-53 menjelaskan tentang pengembalian nilai None untuk menghentikan pencarian, karena jika sistem menemukan slot EMPTY sebelum menemukan kunci, berarti data tersebut memang tidak pernah ada di dalam tabel.
+
+Baris ke-54 menjelaskan tentang pemeriksaan kondisi apakah slot tersebut berstatus OCCUPIED (terisi) dan kunci (key) yang tersimpan di slot itu cocok dengan kunci yang sedang dicari.
+
+Baris ke-55 menjelaskan tentang pengembalian objek data self.table[i] yang ditemukan karena kuncinya telah cocok.
+
+Baris ke-56 menjelaskan tentang pengembalian nilai None di luar perulangan, yang akan dieksekusi jika seluruh tabel sudah diperiksa (kasus tabel penuh) namun kunci tetap tidak ditemukan.
+
+Baris ke-58 menjelaskan tentang pendefinisian fungsi bernama remove_key yang menerima parameter key untuk menghapus data dari dalam tabel.
+
+Baris ke-59 menjelaskan tentang pemanggilan fungsi search(key) untuk mencari keberadaan objek data yang ingin dihapus, lalu hasilnya disimpan ke variabel entry.
+
+Baris ke-60 menjelaskan tentang pemeriksaan kondisi jika hasil pencarian variabel entry bernilai None (data tidak ditemukan).
+
+Baris ke-61 menjelaskan tentang pengembalian nilai False yang menandakan proses penghapusan gagal karena data yang dimaksud tidak ada di dalam sistem.
+
+Baris ke-62 menjelaskan tentang proses mengubah status slot data yang ditemukan tersebut menjadi SlotState.DELETED (menandainya sebagai bekas barang).
+
+Baris ke-63 menjelaskan tentang pengembalian nilai True yang menandakan bahwa proses penghapusan data telah berhasil dilakukan.
+
+Baris ke-65 menjelaskan tentang pendefinisian fungsi bernama display yang digunakan untuk mencetak seluruh isi dan status hash table ke layar.
+
+Baris ke-66 menjelaskan tentang pencetakan teks judul atau header pembuka tabel yaitu [Kondisi Rak Penyimpanan Hash Table]: ke layar.
+
+Baris ke-67 menjelaskan tentang pembuatan perulangan for untuk menyusuri setiap indeks dari 0 hingga batas kapasitas tabel (self.SIZE).
+
+Baris ke-68 menjelaskan tentang pencetakan label nomor slot (contoh: Slot 0: ) dengan parameter end="" agar cetakan berikutnya tetap berada di baris yang sama.
+
+Baris ke-69 menjelaskan tentang pemeriksaan kondisi apakah slot pada indeks i saat ini berstatus EMPTY.
+
+Baris ke-70 menjelaskan tentang pencetakan teks "KOSONG (EMPTY)" jika kondisi pada baris ke-69 terpenuhi.
+
+Baris ke-71 menjelaskan tentang pemeriksaan kondisi alternatif (elif) apakah slot pada indeks i tersebut berstatus DELETED.
+
+Baris ke-72 menjelaskan tentang pencetakan teks "BEKAS BARANG (DELETED)" jika kondisi pada baris ke-71 terpenuhi.
+
+Baris ke-73 menjelaskan tentang blok kondisi terakhir (else) yang akan berjalan jika slot tersebut tidak kosong dan tidak dihapus (artinya berstatus OCCUPIED).
+
+Baris ke-74 menjelaskan tentang pencetakan informasi lengkap data berupa nilai key (Barcode) dan nilai value (Nama Barang) yang tersimpan aktif di dalam slot tersebut.
