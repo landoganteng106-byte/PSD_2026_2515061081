@@ -142,3 +142,84 @@ Baris ke-72 menjelaskan tentang pencetakan teks "BEKAS BARANG (DELETED)" jika ko
 Baris ke-73 menjelaskan tentang blok kondisi terakhir (else) yang akan berjalan jika slot tersebut tidak kosong dan tidak dihapus (artinya berstatus OCCUPIED).
 
 Baris ke-74 menjelaskan tentang pencetakan informasi lengkap data berupa nilai key (Barcode) dan nilai value (Nama Barang) yang tersimpan aktif di dalam slot tersebut.
+
+
+![img alt](https://cdn.corenexis.com/files/c/5936396720.png)
+
+Baris ke-77 menjelaskan tentang pendefinisian fungsi utama bernama main() yang akan membungkus seluruh alur logika jalannya program simulasi kasir.
+
+Baris ke-78 menjelaskan tentang pembuatan objek data baru bernama kasir_toko dengan memanggil kelas HashMapOpenAddressing serta menentukan kapasitas tabel ukuran size=10.
+
+Baris ke-79 adalah baris kosong tanpa kode perintah yang dibuat sebagai jarak visual (spasi) agar susunan kode terlihat rapi.
+
+Baris ke-80 menjelaskan tentang pencetakan garis pembatas dekorasi menggunakan karakter sama dengan (=) untuk mempercantik tampilan di layar konsol.
+
+Baris ke-81 menjelaskan tentang pencetakan teks judul program ke layar, yaitu "SIMULASI SISTEM KASIR TOKO KELONTONG DIGITAL".
+
+Baris ke-82 menjelaskan tentang pencetakan garis dekorasi penutup judul menggunakan karakter sama dengan (=).
+
+Baris ke-83 menjelaskan tentang pencetakan teks informasi sub-judul bagian pertama, yaitu "1. Menambahkan Barang ke Sistem".
+
+Baris ke-84 menjelaskan tentang proses memasukkan barang pertama ke dalam sistem kasir dengan kode barcode 101 dan nama barang "Indomie Goreng".
+
+Baris ke-85 menjelaskan tentang proses memasukkan barang kedua dengan kode barcode 111 dan nama "Minyak Goreng 1 Liter" (barcode ini sengaja memicu tabrakan indeks dengan data 101).
+
+Baris ke-86 menjelaskan tentang proses memasukkan barang ketiga dengan kode barcode 121 dan nama "Beras Premium 5 Kg" (barcode ini juga sengaja dibuat memicu tabrakan beruntun untuk menguji efisiensi Linear Probing).
+
+Baris ke-87 menjelaskan tentang proses memasukkan barang keempat dengan kode barcode 105 dan nama "Susu Kotak UHT".
+
+Baris ke-89 menjelaskan tentang pemanggilan fungsi display() pada objek kasir_toko untuk mencetak status dan kondisi seluruh slot penyimpanan tabel saat ini ke layar.
+
+Baris ke-91 menjelaskan tentang pencetakan teks informasi sub-judul bagian kedua, yaitu "2. Simulasi Pembeli Datang ke Kasir (Scan Barang)".
+
+Baris ke-92 menjelaskan tentang pembuatan variabel barcode_scan yang diberi nilai integer 111 sebagai simulasi kode barang yang sedang di-scan oleh kasir.
+
+Baris ke-93 menjelaskan tentang pencetakan informasi ke layar yang menunjukkan nomor barcode yang sedang aktif dipindai oleh kasir
+
+Baris ke-95 menjelaskan tentang proses pencarian data barang menggunakan fungsi search(barcode_scan), di mana hasil objek pencariannya disimpan ke dalam variabel item.
+
+Baris ke-96 menjelaskan tentang pemeriksaan kondisi if untuk mengecek apakah variabel item berhasil menemukan data (tidak bernilai kosong/None).
+
+Baris ke-97 menjelaskan tentang pencetakan pesan sukses beserta nama barang yang terdaftar jika kondisi barang ditemukan pada baris ke-96 terpenuhi.
+
+Baris ke-98 menjelaskan tentang blok alternatif else yang akan dijalankan apabila data barang tidak berhasil ditemukan di dalam sistem.
+
+Baris ke-99 menjelaskan tentang pencetakan pesan teks "Hasil Layar Kasir: BARANG TIDAK TERDAFTAR!" ke layar apabila kondisi blok else aktif.
+
+Baris ke-100 adalah baris kosong yang berfungsi sebagai pemisah visual.
+
+Baris ke-101 menjelaskan tentang pencetakan teks informasi sub-judul bagian ketiga, yaitu "3. Barang Habis, Dihapus dari Sistem".
+
+Baris ke-102 menjelaskan tentang pembuatan variabel barcode_hapus yang diisi nilai integer 111 sebagai target barcode barang yang akan dihapus dari sistem.
+
+Baris ke-103 menjelaskan tentang pencetakan teks pemberitahuan ke layar bahwa sistem akan menghapus kode barang Minyak Goreng karena stok gudang kosong.
+
+Baris ke-104 menjelaskan tentang proses penghapusan data barang dari tabel kasir dengan memanggil fungsi remove_key(barcode_hapus).
+
+Baris ke-106 menjelaskan tentang pemanggilan kembali fungsi display() untuk memantau perubahan status slot memori pasca-penghapusan barang (slot akan berubah dari OCCUPIED menjadi DELETED).
+
+aris ke-108 menjelaskan tentang pencetakan teks informasi sub-judul bagian keempat, yaitu "4. Scan Barang Lain Setelah Ada Penghapusan".
+
+Baris ke-109 menjelaskan tentang pembuatan variabel barcode_beras dengan nilai integer 121 untuk mensimulasikan pencarian barang lain yang posisinya berada setelah barang yang baru saja dihapus.
+
+Baris ke-110 menjelaskan tentang pencetakan pesan ke layar bahwa kasir sedang memindai barcode Beras Premium dengan kode 121.
+
+Baris ke-111 adalah baris kosong yang berfungsi sebagai pemisah visual.
+
+Baris ke-112 menjelaskan tentang proses pencarian data menggunakan fungsi search(barcode_beras) untuk membuktikan keandalan status slot DELETED, lalu hasilnya ditampung ke variabel item_beras.
+
+Baris ke-113 menjelaskan tentang pemeriksaan kondisi if untuk mengecek apakah data Beras Premium sukses teridentifikasi oleh sistem pencarian.
+
+Baris ke-114 menjelaskan tentang pencetakan informasi ke layar bahwa Beras Premium masih dapat ditemukan dengan aman tanpa terputus oleh slot kosong bekas penghapusan Minyak Goreng.
+
+Baris ke-115 menjelaskan tentang blok alternatif else yang akan berjalan jika sistem gagal melacak keberadaan data Beras Premium.
+
+Baris ke-116 menjelaskan tentang pencetakan pesan peringatan kegagalan sistem "Hasil Layar Kasir: Gawat, Beras hilang dari sistem!" apabila blok else pada baris ke-115 aktif.
+
+Baris ke-117 menjelaskan tentang pencetakan baris dekorasi penutup program simulasi menggunakan karakter sama dengan (=).
+
+Baris ke-118 adalah baris kosong di dalam lingkup akhir fungsi utama.
+
+Baris ke-120 menjelaskan tentang klausa kondisi standar Python if __name__ == "__main__": yang bertugas memastikan bahwa seluruh kode di dalam fungsi main() hanya akan dieksekusi jika file script ini dijalankan secara langsung (bukan saat diimpor oleh script lain).
+
+Baris ke-121 menjelaskan tentang pemanggilan langsung fungsi main() untuk memerintahkan komputer memulai jalannya program simulasi dari baris awal.
